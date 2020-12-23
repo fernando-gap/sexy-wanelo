@@ -1,4 +1,4 @@
-## Sexy Wanelo | oh-my-bash
+# Sexy Wanelo | oh-my-bash
 A combination of sexy and wanelo theme to oh-my-bash.
 
 I really like to pass hours in front of my computer and I love to customize things in my workflow like our shell, icons and environment. 
@@ -60,3 +60,4 @@ sexy-wanelo:
 OSH_THEME="sexy-wanelo"
 ```
 
+Enjoy!!!
