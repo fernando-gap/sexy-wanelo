@@ -29,3 +29,34 @@ If you're confuse about the font-colors just go to your terminal `preferences` a
 if you don't got it, maybe the google helps you ;)
 
 ## How to install
+
+To install the theme you need to install [oh-my-bash](https://github.com/ohmybash/oh-my-bash):
+
+```shell
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+After you need the git:
+
+```shell
+sudo apt install git
+```
+
+Finally use this command to install the theme:
+
+```shell
+git clone https://github.com/fernando-gap/sexy-wanelo.git ~/.oh-my-bash/themes/sexy-wanelo
+```
+
+## How to use
+
+To use the theme you need to open your `.bashrc` or `.bash_profile` with an editor 
+like nano or vim.
+
+After you install correctly [oh-my-bash](https://github.com/ohmybash/oh-my-bash) just change the content inside quotes to 
+sexy-wanelo:
+
+```shell
+OSH_THEME="sexy-wanelo"
+```
+
