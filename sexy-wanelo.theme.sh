@@ -29,7 +29,7 @@ function prompt_command() {
       status=🌩️
     fi
 
-    PS1="\n${BOLD}\[${RED}\] \h \[${WHITE}\]in \[${GREEN}\]\w $status \n${BOLD} \[${BLUE}\][$(clock_prompt)]\[${GREEN}\]\[${MAGENTA}\]$(scm_prompt_info) \[${GREEN}\]→\[${RESET}\] "
+    PS1="\n\[${BOLD}\]\[${RED}\] \h \[${WHITE}\]in \[${GREEN}\]\w $status \n\[${BOLD}\] \[${BLUE}\][$(clock_prompt)]\[${GREEN}\]\[${MAGENTA}\]$(scm_prompt_info) \[${GREEN}\]→\[${RESET}\] "
 }
 
 THEME_CLOCK_COLOR=${THEME_CLOCK_COLOR:-"\[${BLUE}\]"}
