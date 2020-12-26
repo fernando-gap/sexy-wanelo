@@ -53,9 +53,9 @@ wget https://raw.githubusercontent.com/fernando-gap/sexy-wanelo/main/install.sh 
 ```
 All dependencies will be downloaded and installed.
 
-## How to use
+## Usage
 
-To use the theme you need to open your `.bashrc` or `.bash_profile` with an editor 
+To use the theme you need to open your `~/.bashrc` or `~/.bash_profile` with an editor 
 like nano or vim.
 
 After you install correctly [oh-my-bash](sexy-wanelo/install.sh) just change the content inside quotes to 
@@ -64,5 +64,6 @@ sexy-wanelo:
 ```shell
 OSH_THEME="sexy-wanelo"
 ```
+Just restart your terminal and will works.
 
 Enjoy!!!
