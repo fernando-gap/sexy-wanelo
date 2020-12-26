@@ -26,7 +26,8 @@ then
 	echo "* The theme is already installed *"
 	echo "**********************************"
 else 
-	git clone https://github.com/fernando-gap/sexy-wanelo.git ~/.oh-my-bash/themes/sexy-wanelo
+	exec git clone https://github.com/fernando-gap/sexy-wanelo.git ~/.oh-my-bash/themes/sexy-wanelo
+	
 	echo ""
 	echo ""
 	echo "************************"
